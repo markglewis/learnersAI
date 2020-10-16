@@ -64,3 +64,6 @@ def model():
     	returnvalue = [str(testheadlines[ii]),str(predictions[ii])]
     	ii += 1
     return jsonify(returnvalue)
+
+if __name__ == '__main__':
+	app.run()
